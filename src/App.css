@@ -1,0 +1,38 @@
+
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 500px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+/* 
+.add-dialog {
+    padding: 10px 20px;
+} */
+
+.file-input-button{
+    border: 5px dashed gainsboro;
+    min-height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: gray;
+    row-gap: 5px;
+    cursor: pointer;
+    user-select: none;
+    margin: 20px 0;
+    padding: 10px
+} 
+
+.file-input-button h1{
+    margin: 0;
+}
